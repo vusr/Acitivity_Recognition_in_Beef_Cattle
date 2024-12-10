@@ -7,5 +7,9 @@ For training CLIP on our custom dataset, check the notebook clip_train_on_6_clas
 ## YOLO training
 We used YOLOv11 classification model (small version). Check the Yolov11_cls notebook for training this model. We assume the same dataset structure as above.
 
+## Segmentation and Activity classification on videos
+Check the notebook Segment_and_predict_activity for applying segmentation followed by activity recognition (using our trained YOLO model) on each detected cow. You can check a sample [processed frame](segment_classify_sample_frame.jpg)
+
 ## Results
 [YOLO results on our test set](yolo_confusion_matrix.png)
+
